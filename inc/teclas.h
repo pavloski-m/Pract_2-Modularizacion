@@ -24,7 +24,7 @@ extern "C" {
 /*=============================================================================
  * Function: leerTecla
  * Description: Realiza un chequeo del estado de las teclas de la placa EDU-CIAA (TEC1,..,TEC4)
- * Inpunt: No se le pasan parámetros. Accede al estado de las teclas 0 presionado - 1 sin presionar
+ * Input: No se le pasan parámetros. Accede al estado de las teclas 0 presionado - 1 sin presionar
  * Output: Devuelve que tecla está presionada. En caso de presionar dos, se devuelve la de valor de referencia mas bajo.
  *===========================================================================*/
 uint8_t leerTecla ();
@@ -37,7 +37,7 @@ uint8_t leerTecla ();
  * 		TEC2:tiempo de permanencia de encendido del led: 150 ms
  * 		TEC3:tiempo de permanencia de encendido del led: 750 ms
  * 		TEC4:secuencia con desplazamiento creciente
- * Inpunt: tecla presionada, puntero a varible que configura el retardo y al sentido de la secuencia
+ * Input: tecla presionada, puntero a varible que configura el retardo y al sentido de la secuencia
  * Output: No se devuelve nada. Se modifican las variables de input
  *===========================================================================*/
 void accionTecla(uint8_t tecla, delay_t *delayLed, bool_t *sequence);

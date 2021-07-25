@@ -39,18 +39,33 @@ int main(void){
 
    /* Declaración de variables locales */
 
-   uint8_t seqSize = 0;
+   uint8_t seqSize1 = 0;
+   uint8_t seqSize2 = 0;
+   uint8_t seqSize3 = 0;
+   uint8_t estado = 0;
+   uint8_t flag = 0;
 
    /* Declaración de secuencias*/
    //gpioMap_t secuencia[] = {LED1, LED_OFF, LED2, LED3};
-   uint16_t tiemposSecuencia[] ={1000, 500, 2000, 3000, 1000};
-   gpioMap_t secuencia[] = {LED2, LEDB, LED1, LED3, LED_OFF};
+   //uint16_t tiemposSecuencia[] ={1000, 500, 2000, 3000};
+   gpioMap_t secuencia1[] = {LED2, LED1, LED3};
+   uint16_t tiemposSecuencia1[] ={3000, 500, 1000};
+
+   gpioMap_t secuencia2[] = {LED1, LED_OFF};
+   uint16_t tiemposSecuencia2[] ={500, 500};
+
+   gpioMap_t secuencia3[] = {LED2, LED_OFF};
+   uint16_t tiemposSecuencia3[] ={1000, 1000};
 
 
+   seqSize1 = sizeof(secuencia1)/sizeof(gpioMap_t);
+   punteroSecuencias ptrSec1 = {.pDesplaza = secuencia1, .pInicio = &secuencia1[0], .pFinal = &secuencia1[seqSize1-1]};
 
-   seqSize = sizeof(secuencia)/sizeof(gpioMap_t);
+   seqSize2 = sizeof(secuencia2)/sizeof(gpioMap_t);
+   punteroSecuencias ptrSec2 = {.pDesplaza = secuencia2, .pInicio = &secuencia2[0], .pFinal = &secuencia2[seqSize2-1]};
 
-   punteroSecuencias ptrSec = {.pDesplaza = secuencia, .pInicio = &secuencia[0], .pFinal = &secuencia[seqSize-1]};
+   seqSize3 = sizeof(secuencia3)/sizeof(gpioMap_t);
+   punteroSecuencias ptrSec3 = {.pDesplaza = secuencia3, .pInicio = &secuencia3[0], .pFinal = &secuencia3[seqSize3-1]};
 
  /* ------------- REPETIR POR SIEMPRE ------------- */
 
@@ -60,13 +75,39 @@ int main(void){
 
     	tecla = leerTecla();
 
-    	if(tecla != 0){
-    		accionTecla(tecla, &delayLed, &sequence);
+    	if (tecla==0){
+    		flag = 0;
     	}
+
+    	if (tecla==2 && flag==0){
+    		estado++;
+    		flag=1;
+
+    	   	if (estado>2){
+    	   		estado=0;
+    	   	}
+    	}
+
+//    	if(tecla != 0){
+//    		accionTecla(tecla, &delayLed, &sequence);
+//    	}
 
     	if ( delayRead( &delayLed ) ){
 
-    		activarSecuencia(&ptrSec, sequence, tiemposSecuencia, &delayLed, seqSize);
+    		switch(estado){
+    			case 0:
+    				activarSecuencia(&ptrSec1, sequence, tiemposSecuencia1, &delayLed, seqSize1);
+    				break;
+    			case 1:
+    				activarSecuencia(&ptrSec2, sequence, tiemposSecuencia2, &delayLed, seqSize2);
+    				break;
+    			case 2:
+    				activarSecuencia(&ptrSec3, sequence, tiemposSecuencia3, &delayLed, seqSize3);
+    				break;
+    		}
+
+
+    		//activarSecuencia(&ptrSec, sequence, tiemposSecuencia, &delayLed, seqSize);
 
 	  	}
 
