@@ -42,8 +42,9 @@ int main(void){
    uint8_t seqSize = 0;
 
    /* Declaración de secuencias*/
-   gpioMap_t secuencia[] = {LED1, LED2, LED3, LEDB};
-   //gpioMap_t secuencia[] = {LED2, LEDB, LED1, LED3, LEDG};
+   //gpioMap_t secuencia[] = {LED1, LED_OFF, LED2, LED3};
+   uint16_t tiemposSecuencia[] ={1000, 500, 2000, 3000, 1000};
+   gpioMap_t secuencia[] = {LED2, LEDB, LED1, LED3, LED_OFF};
 
 
 
@@ -65,7 +66,7 @@ int main(void){
 
     	if ( delayRead( &delayLed ) ){
 
-    		activarSecuencia(&ptrSec, sequence);
+    		activarSecuencia(&ptrSec, sequence, tiemposSecuencia, &delayLed, seqSize);
 
 	  	}
 

@@ -36,7 +36,7 @@ typedef struct {              // definimos este struct para manejo de los punter
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
 
-void activarSecuencia(punteroSecuencias *ptrSeq1, bool_t sequence);
+void activarSecuencia(punteroSecuencias *ptrSeq1, bool_t sequence, uint16_t *tiempos, delay_t *delay, uint8_t seqSize);
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 

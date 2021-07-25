@@ -1,40 +1,41 @@
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000518 00000044 t Board_LED_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00055c 00000040 t Board_TEC_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00059c 00000040 t Board_GPIO_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0005dc 00000030 t Board_ADC_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00060c 00000038 t Board_SPI_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000644 00000024 t Board_I2C_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a98 00000008 t GpioButtons
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001aa0 0000000c t GpioLeds
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001aac 00000012 t GpioPorts
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001ac4 00000004 t InitClkStates
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001ac8 00000074 t pinmuxing
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1000004a 00000001 b indice.14160
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000570 00000044 t Board_LED_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0005b4 00000040 t Board_TEC_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0005f4 00000040 t Board_GPIO_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000634 00000030 t Board_ADC_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000664 00000038 t Board_SPI_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00069c 00000024 t Board_I2C_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b00 00000008 t GpioButtons
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b08 0000000c t GpioLeds
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b14 00000012 t GpioPorts
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b2c 00000004 t InitClkStates
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b30 00000074 t pinmuxing
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000000 00000038 d i2c
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0007f0 0000002c t Chip_UART_GetIndex
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b3c 00000008 t UART_BClock
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b44 00000008 t UART_PClock
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00094c 00000014 t Chip_ADC_GetClockIndex
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000960 00000032 t getClkDiv
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a28 000000a0 t pll_calc_divs
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ac8 0000010c t pll_get_frac
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000bd4 0000004c t Chip_Clock_FindBaseClock
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000e48 00000022 t Chip_Clock_GetDivRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000848 0000002c t Chip_UART_GetIndex
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001ba4 00000008 t UART_BClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001bac 00000008 t UART_PClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0009a4 00000014 t Chip_ADC_GetClockIndex
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0009b8 00000032 t getClkDiv
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a80 000000a0 t pll_calc_divs
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000b20 0000010c t pll_get_frac
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000c2c 0000004c t Chip_Clock_FindBaseClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ea0 00000022 t Chip_Clock_GetDivRate
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1000004c 00000008 b audio_usb_pll_freq
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b58 0000006c t periph_to_base
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001bc4 00000048 t InitClkStates
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001110 00000014 t Chip_SSP_GetClockIndex
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001124 00000018 t Chip_SSP_GetPeriphClockIndex
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001bc0 0000006c t periph_to_base
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001c2c 00000048 t InitClkStates
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001168 00000014 t Chip_SSP_GetClockIndex
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00117c 00000018 t Chip_SSP_GetPeriphClockIndex
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000038 00000004 d ClockSpeed
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000054 00000004 b callBackFuncParams
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000058 00000008 b tickCounter
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000060 00000004 b tickHookFunction
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0012e4 00000034 t gpioObtainPinInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00133c 00000034 t gpioObtainPinInit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000064 00000004 b g_hUsb
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001cf8 t __init_array_end
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001cf4 b __preinit_array_end
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001cf4 t __init_array_start
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001cf4 b __preinit_array_start
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000c6c 0000001c T Chip_Clock_GetDividerSource
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d60 t __init_array_end
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d5c b __preinit_array_end
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d5c t __init_array_start
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d5c b __preinit_array_start
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000cc4 0000001c T Chip_Clock_GetDividerSource
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000130 00000002 W DebugMon_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a080000 A __top_MFlashA512
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00032c 00000036 T accionTecla
@@ -42,105 +43,105 @@ practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000300 0000002c
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0000c0 T __section_table_start
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000048 00000001 B sequence
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W I2C0_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0006bc 00000008 T __stdio_init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001648 0000003e T delayRead
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000714 00000008 T __stdio_init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0016a0 0000003e T delayRead
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000126 00000002 W HardFault_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000000 A __vectors_start__
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a06 0000000c T Chip_ADC_SetResolution
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0012b8 0000002c T SysTick_Handler
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a5e 0000000c T Chip_ADC_SetResolution
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001310 0000002c T SysTick_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SPIFI_ADCHS_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00048a 00000002 W initialise_monitor_handles
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0004e0 00000002 W initialise_monitor_handles
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SDIO_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000132 00000002 W PendSV_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000124 00000002 W NMI_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d00 R __exidx_end
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d68 R __exidx_end
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0000fc T __data_section_table_end
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W UART1_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:53ff75a6 A __valid_user_code_checksum
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d00 R _etext
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:53ff754e A __valid_user_code_checksum
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d68 R _etext
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W USB1_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W TIMER3_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000eea 0000000c T Chip_Clock_GetBaseClocktHz
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f42 0000000c T Chip_Clock_GetBaseClocktHz
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W UART0_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000154 00000012 T bss_init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SGPIO_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0016a4 T __aeabi_uldivmod
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0016fc T __aeabi_uldivmod
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000070 ? _noinit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000068 00000004 B SystemCoreClock
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00081c 00000054 T Chip_UART_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000874 00000054 T Chip_UART_Init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W ADC0_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00012c 00000002 W UsageFault_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f68 0000004c T Chip_Clock_GetRate
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0006fc 0000006c T Board_SetupClocking
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000fc0 0000004c T Chip_Clock_GetRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000754 0000006c T Board_SetupClocking
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:20008000 A __top_RamAHB32
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0016d4 000002d0 T __udivmoddi4
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a94 00000004 T ExtRateIn
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00172c 000002d0 T __udivmoddi4
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001afc 00000004 T ExtRateIn
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W IntDefaultHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SSP0_SSP1_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000300 T __CRP_WORD_END__
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001cf8 R __exidx_start
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001d60 R __exidx_start
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0002fc 00000004 T CRP_WORD
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019a8 00000048 T __libc_init_array
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a00 00000048 T __libc_init_array
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W ADC1_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W RIT_WDT_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W FLASH_EEPROM_ATIMER_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00068c 00000030 T Board_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000516 00000002 W _init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0006e4 00000030 T Board_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00056e 00000002 W _init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0000c0 T __data_section_table
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W RTC_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000070 B _ebss
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W TIMER0_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00048c 00000088 T Reset_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00123c 0000007c T tickInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0004e4 00000088 T Reset_Handler
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001294 0000007c T tickInit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:20010000 A __top_RamAHB_ETB16
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0007b8 00000038 T Chip_I2C_SetClockRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000810 00000038 T Chip_I2C_SetClockRate
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W LCD_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000362 0000001a T encenderLed
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000c20 0000004c T Chip_Clock_EnableCrystal
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000c78 0000004c T Chip_Clock_EnableCrystal
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W M4_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000049 00000001 B tecla
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10008000 A __top_RamLoc32
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000136 0000001e T data_init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000794 00000024 T Chip_I2C_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ddc 0000006c T Chip_Clock_GetMainPLLHz
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001c0c 000000e6 T gpioPinsInit
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00113c 00000012 T Chip_SSP_SetClockRate
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ec4 00000026 T Chip_Clock_GetBaseClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0007ec 00000024 T Chip_I2C_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000e34 0000006c T Chip_Clock_GetMainPLLHz
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001c74 000000e6 T gpioPinsInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001194 00000012 T Chip_SSP_SetClockRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f1c 00000026 T Chip_Clock_GetBaseClock
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000048 B _bss
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0009d4 00000032 T Chip_ADC_SetSampleRate
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001628 00000020 T delayInit
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00114e 0000003e T Chip_SSP_SetBitRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a2c 00000032 T Chip_ADC_SetSampleRate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001680 00000020 T delayInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0011a6 0000003e T Chip_SSP_SetBitRate
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W I2S0_I2S1_QEI_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000fb4 00000002 T Chip_GPIO_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001ac0 00000004 T OscRateIn
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00100c 00000002 T Chip_GPIO_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001b28 00000004 T OscRateIn
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000070 ? _end_noinit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10008000 A _vStackTop
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000124 T __bss_section_table_end
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001318 000001ac T gpioInit
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019a4 00000002 W __aeabi_ldiv0
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001598 0000001c T USB0_IRQHandler
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001370 000001ac T gpioInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019fc 00000002 W __aeabi_ldiv0
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0015f0 0000001c T USB0_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SCT_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000c88 0000001c T Chip_Clock_GetDividerDivisor
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ce0 0000001c T Chip_Clock_GetDividerDivisor
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0002fc T __CRP_WORD_START__
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019f0 000000a0 T memset
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a48 000000a0 T memset
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000128 00000002 W MemManage_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0003f0 00000060 T main
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0003f0 00000078 T main
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:2000c000 A __top_RamAHB16
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1008a000 A __top_RamLoc40
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00012e 00000002 W SVC_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00037c 00000074 T apagarLeds
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ef8 0000003c T Chip_Clock_EnableOpts
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ca4 000000b8 T Chip_Clock_GetClockInputHz
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000d5c 00000080 T Chip_Clock_CalcMainPLLValue
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0011c4 00000038 T SystemInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f50 0000003c T Chip_Clock_EnableOpts
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000cfc 000000b8 T Chip_Clock_GetClockInputHz
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000db4 00000080 T Chip_Clock_CalcMainPLLValue
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00121c 00000038 T SystemInit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0000fc T __bss_section_table
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0014c4 0000006a T gpioWrite
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000514 00000002 W _fini
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000994 00000040 T Chip_ADC_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00151c 0000006a T gpioWrite
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00056c 00000002 W _fini
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0009ec 00000040 T Chip_ADC_Init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1000006c 00000004 B g_pUsbApi
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0006c4 00000038 T Board_SetupMuxing
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000870 000000dc T Chip_UART_SetBaudFDR
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001218 0000000c T tickRead
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00071c 00000038 T Board_SetupMuxing
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0008c8 000000dc T Chip_UART_SetBaudFDR
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001270 0000000c T tickRead
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000040 00000008 D tickRateMS
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W SPI_DAC_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W ETH_IRQHandler
@@ -151,30 +152,30 @@ practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000000 D _data
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000070 B _pvHeapStart
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W UART2_CAN1_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000124 T __section_table_end
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00118c 00000038 T Chip_SSP_Init
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000668 00000024 T Board_Debug_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0011e4 00000038 T Chip_SSP_Init
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0006c0 00000024 T Board_Debug_Init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:10000048 D _edata
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000774 00000020 T Chip_I2C_EventHandler
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0007cc 00000020 T Chip_I2C_EventHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W M0SUB_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000fb8 00000158 T Chip_SetupCoreClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001010 00000158 T Chip_SetupCoreClock
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000000 00000040 T g_pfnVectors
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a14 00000014 T SystemCoreClockUpdate
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000a6c 00000014 T SystemCoreClockUpdate
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W DMA_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W EVRT_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1b080000 A __top_MFlashB512
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000450 0000003a T activarSecuencia
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019a4 00000002 W __aeabi_idiv0
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000468 00000078 T activarSecuencia
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0019fc 00000002 W __aeabi_idiv0
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00012a 00000002 W BusFault_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f34 00000034 T Chip_Clock_Enable
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000f8c 00000034 T Chip_Clock_Enable
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W UART3_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001688 0000001c T delayWrite
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0016e0 0000001c T delayWrite
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W MCPWM_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00152e 00000068 T gpioRead
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0015b4 00000074 T boardInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001586 00000068 T gpioRead
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00160c 00000074 T boardInit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000040 00000080 T g_pfnVendorVectors
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W GINT1_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001224 00000018 T tickPowerSet
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000e6c 00000058 T Chip_Clock_SetBaseClock
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0011fc 0000001c T cyclesCounterInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00127c 00000018 T tickPowerSet
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ec4 00000058 T Chip_Clock_SetBaseClock
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001254 0000001c T cyclesCounterInit
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W GPIO4_IRQHandler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000768 0000000c T Board_SystemInit
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0007c0 0000000c T Board_SystemInit

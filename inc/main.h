@@ -28,6 +28,8 @@ extern "C" {
 
 /*=====[Definition macros of public constants]===============================*/
 
+#define LED_OFF 0
+
 /*=====[Public function-like macros]=========================================*/
 
 /*=====[Definitions of public data types]====================================*/
