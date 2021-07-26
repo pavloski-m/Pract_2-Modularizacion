@@ -1,4 +1,4 @@
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1000004a 00000001 b indice.14160
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1000004a 00000001 b indice.14159
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0005bc 00000044 t Board_LED_Init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000600 00000040 t Board_TEC_Init
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000640 00000040 t Board_GPIO_Init
@@ -124,7 +124,7 @@ practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000d2c 0000001c
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0002fc T __CRP_WORD_START__
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a94 000000a0 T memset
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000128 00000002 W MemManage_Handler
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0003bc 000000f8 T main
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0003bc 000000fc T main
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:2000c000 A __top_RamAHB16
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1008a000 A __top_RamLoc40
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00012e 00000002 W SVC_Handler
@@ -162,7 +162,7 @@ practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000ab8 00000014
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W DMA_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000166 00000002 W EVRT_IRQHandler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1b080000 A __top_MFlashB512
-practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0004b4 00000078 T activarSecuencia
+practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a0004b8 00000074 T activarSecuencia
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a001a48 00000002 W __aeabi_idiv0
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a00012a 00000002 W BusFault_Handler
 practica/Pract_2-Modularizacion/out/Pract_2-Modularizacion.elf:1a000fd8 00000034 T Chip_Clock_Enable

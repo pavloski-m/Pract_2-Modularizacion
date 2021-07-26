@@ -46,8 +46,6 @@ int main(void){
    uint8_t flag = 0;
 
    /* Declaración de secuencias*/
-   //gpioMap_t secuencia[] = {LED1, LED_OFF, LED2, LED3};
-   //uint16_t tiemposSecuencia[] ={1000, 500, 2000, 3000};
    gpioMap_t secuencia1[] = {LED2, LED1, LED3};
    uint16_t tiemposSecuencia1[] ={3000, 500, 1000};
 
@@ -59,55 +57,58 @@ int main(void){
 
 
    seqSize1 = sizeof(secuencia1)/sizeof(gpioMap_t);
-   punteroSecuencias ptrSec1 = {.pDesplaza = secuencia1, .pInicio = &secuencia1[0], .pFinal = &secuencia1[seqSize1-1]};
+   punteroSecuencias ptrSec1 = {.pDesplaza = secuencia1, .pInicio = &secuencia1[0], .pFinal = &secuencia1[seqSize1-1], seqSize1};
 
    seqSize2 = sizeof(secuencia2)/sizeof(gpioMap_t);
-   punteroSecuencias ptrSec2 = {.pDesplaza = secuencia2, .pInicio = &secuencia2[0], .pFinal = &secuencia2[seqSize2-1]};
+   punteroSecuencias ptrSec2 = {.pDesplaza = secuencia2, .pInicio = &secuencia2[0], .pFinal = &secuencia2[seqSize2-1], seqSize2};
 
    seqSize3 = sizeof(secuencia3)/sizeof(gpioMap_t);
-   punteroSecuencias ptrSec3 = {.pDesplaza = secuencia3, .pInicio = &secuencia3[0], .pFinal = &secuencia3[seqSize3-1]};
+   punteroSecuencias ptrSec3 = {.pDesplaza = secuencia3, .pInicio = &secuencia3[0], .pFinal = &secuencia3[seqSize3-1], seqSize3};
 
  /* ------------- REPETIR POR SIEMPRE ------------- */
 
 
     while(1) {
 
+    	// se utiliza la variable flag para que no sucedan cambios seguidos en iteraciones por mantener presionado el botón
+    	// aún es suceptible a rebotes eléctricos del botón.
 
     	tecla = leerTecla();
-
     	if (tecla==0){
     		flag = 0;
     	}
-
     	if (tecla==2 && flag==0){
-    		estado++;
+    		estado++;					//se utiliza la variable "estado" para cambiar el modo de operación del semáforo.
     		flag=1;
-
     	   	if (estado>2){
     	   		estado=0;
     	   	}
     	}
 
-//    	if(tecla != 0){
+//    	if(tecla != 0){                                               //Pertenece al punto 1 y 2
 //    		accionTecla(tecla, &delayLed, &sequence);
 //    	}
+
+
+// 		Para no modificar la función secuencia del punto 2 del TP se deja el parámetro sequence para cambiar el sentido de la secuencia
+
 
     	if ( delayRead( &delayLed ) ){
 
     		switch(estado){
     			case 0:
-    				activarSecuencia(&ptrSec1, sequence, tiemposSecuencia1, &delayLed, seqSize1);
+    				activarSecuencia(&ptrSec1, sequence, tiemposSecuencia1, &delayLed);
     				break;
     			case 1:
-    				activarSecuencia(&ptrSec2, sequence, tiemposSecuencia2, &delayLed, seqSize2);
+    				activarSecuencia(&ptrSec2, sequence, tiemposSecuencia2, &delayLed);
     				break;
     			case 2:
-    				activarSecuencia(&ptrSec3, sequence, tiemposSecuencia3, &delayLed, seqSize3);
+    				activarSecuencia(&ptrSec3, sequence, tiemposSecuencia3, &delayLed);
     				break;
     		}
 
 
-    		//activarSecuencia(&ptrSec, sequence, tiemposSecuencia, &delayLed, seqSize);
+//		activarSecuencia(&ptrSec, sequence, tiemposSecuencia, &delayLed, seqSize);  //Pertenece al Punto 2
 
 	  	}
 
